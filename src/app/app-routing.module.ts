@@ -1,12 +1,17 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
+//import { DashboardRoutes } from './dashboard';
+//import { CalculadoraRoutes } from './calculadora';
+
 export const routes: Routes = [ //Minhas rota que irá fazer o redirect para dashboard.
-  /* { //Ao clicar no path vazio iremos ser redirecionado ao dashboard.
+   { //Ao clicar no path vazio iremos ser redirecionado ao dashboard.
     path: '',
     redirectTo: '/dashboard',
     pathMatch: 'full' //diz para fazero redirecionamento ao dashboard
-  } */
+  },
+  //...DashboardRoutes,
+	//...CalculadoraRoutes
 ];
 
 /**
