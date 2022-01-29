@@ -5,6 +5,7 @@ import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module'; //Add import de rotas
 import { DashboardModule } from './dashboard'; //Add import dashboard file
 import { CalculadoraModule } from './calculadora'; //Add import calculadora.module.ts
+import { ConversorModule } from './conversor'; //Add import conversor
 
 @NgModule({
   declarations: [
@@ -14,6 +15,7 @@ import { CalculadoraModule } from './calculadora'; //Add import calculadora.modu
     BrowserModule,
     DashboardModule,
     CalculadoraModule,
+    ConversorModule,
     AppRoutingModule //esse módulo precisa ficar no ultimo
   ],
   providers: [],
