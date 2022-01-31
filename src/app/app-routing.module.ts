@@ -3,6 +3,7 @@ import { Routes, RouterModule } from '@angular/router';
 
 //import { DashboardRoutes } from './dashboard';
 //import { CalculadoraRoutes } from './calculadora';
+import { ConversorRoutes } from './conversor/conversor-routing.module'; //Add conversor-routing
 
 export const routes: Routes = [ //Minhas rota que irá fazer o redirect para dashboard.
    { //Ao clicar no path vazio iremos ser redirecionado ao dashboard.
@@ -12,6 +13,7 @@ export const routes: Routes = [ //Minhas rota que irá fazer o redirect para das
   },
   //...DashboardRoutes,
 	//...CalculadoraRoutes
+  ...ConversorRoutes
 ];
 
 /**
