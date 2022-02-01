@@ -7,6 +7,7 @@ import { DashboardModule } from './dashboard'; //Add import dashboard file
 import { CalculadoraModule } from './calculadora'; //Add import calculadora
 import { ConversorModule } from './conversor'; //Add import conversor
 import { TarefasModule } from './tarefas'; //Add import Tarefas
+import { JogoDaVelhaModule } from './jogo-da-velha'; //Add import Jogo-da-velha
 
 @NgModule({
   declarations: [
@@ -18,6 +19,7 @@ import { TarefasModule } from './tarefas'; //Add import Tarefas
     CalculadoraModule,
     ConversorModule,
     TarefasModule,
+    JogoDaVelhaModule,
     AppRoutingModule //esse módulo precisa ficar no ultimo
   ],
   providers: [],
