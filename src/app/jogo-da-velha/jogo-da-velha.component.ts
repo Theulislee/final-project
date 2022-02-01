@@ -46,7 +46,8 @@ export class JogoDaVelhaComponent implements OnInit {
    *
    * @return void
    */
-  iniciarJogo(): void {
+  //Add $event para não carregar página
+  iniciarJogo($event: any): void {
   	this.jogoDaVelhaService.iniciarJogo();
   }
 
@@ -111,7 +112,8 @@ export class JogoDaVelhaComponent implements OnInit {
    *
    * @return void
    */
-  novoJogo(): void {
+  //Add $event para não carregar página
+  novoJogo($event): void {
   	this.jogoDaVelhaService.novoJogo();
   }
 
