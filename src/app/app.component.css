@@ -1,0 +1,10 @@
+* {
+  box-sizing: border-box;
+  outline: 0;
+}
+
+nav {
+  margin: 0;
+  padding: 0;
+  background: rgba(9, 1, 44, 0.993);
+}
